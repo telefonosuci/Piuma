@@ -1,0 +1,133 @@
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; 
+}
+
+.p1Cols{
+    .pCol{
+        width: 100%;
+    }
+}
+.p2Cols{
+    .pCol{
+        width: 50%;
+    }
+}
+.p3Cols{
+    .pCol{
+        width: calc(100% / 3);
+    }
+}
+.p4Cols{
+    .pCol{
+        width: 25%;
+    }
+}
+.p5Cols{
+    .pCol{
+        width: 20%;
+    }
+}
+.p6Cols{
+    .pCol{
+        width: calc(100% / 6);
+    }
+}
+.p7Cols{
+    .pCol{
+        width: calc(100% / 7);
+    }
+}
+.p8Cols{
+    .pCol{
+        width: calc(100% / 8);
+    }
+}
+.p9Cols{
+    .pCol{
+        width: calc(100% / 9);
+    }
+}
+.p10Cols{
+    .pCol{
+        width: 10%;
+    }
+}
+
+
+input{
+    //CSS
+    width: 100%;
+}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
+
